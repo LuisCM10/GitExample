@@ -9,5 +9,18 @@ package core;
  * @author ASUS
  */
 public class Dog {
+    private String name;
+    private int edad;
+
+    public Dog(String name, int edad) {
+        this.name = name;
+        this.edad = edad;
+    }
+
+    @Override
+    public String toString() {
+        return "Dog{" + "name=" + name + ", edad=" + edad + '}';
+    }
+    
     
 }

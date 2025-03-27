@@ -4,6 +4,7 @@
  */
 package main;
 
+import core.Cat;
 import core.Person;
 
 /**
@@ -17,6 +18,9 @@ public class Main {
         
         Person persona1 = new Person("Luis");
         System.out.println(persona1);
+        
+        Cat gato = new Cat("Venus", 5);
+        System.out.println(gato);
     }
     
 }

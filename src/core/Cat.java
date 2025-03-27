@@ -4,10 +4,26 @@
  */
 package core;
 
+import java.util.logging.Logger;
+
 /**
  *
  * @author ASUS
  */
 public class Cat {
+    private String name;
+    private int edad;
+
+    public Cat(String name, int edad) {
+        this.name = name;
+        this.edad = edad;
+    }
+
+    @Override
+    public String toString() {
+        return "Cat{" + "name=" + name + ", edad=" + edad + '}';
+    }
+   
+    
     
 }
